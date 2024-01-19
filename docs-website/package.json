@@ -23,7 +23,7 @@
     "check-links": "yarn run -s _list-link-check-files -print0 | xargs -0 -n1 -t markdown-link-check -q -c markdown-link-check-config.json"
   },
   "dependencies": {
-    "@ant-design/icons": "^4.7.0",
+    "@ant-design/icons": "^5.2.6",
     "@docusaurus/core": "^2.4.1",
     "@docusaurus/plugin-content-docs": "2.4.1",
     "@docusaurus/plugin-ideal-image": "^2.4.1",
