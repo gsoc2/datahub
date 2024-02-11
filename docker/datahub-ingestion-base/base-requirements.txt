@@ -392,3 +392,4 @@ xmltodict==0.13.0
 yarl==1.9.2
 zeep==4.2.1
 zstd==1.5.5.1
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
