@@ -6,7 +6,7 @@ acryl-datahub-classify==0.0.8
 acryl-PyHive==0.6.14
 acryl-sqlglot==18.5.2.dev45
 aenum==3.1.15
-aiohttp==3.8.6
+aiohttp==3.9.2
 aiosignal==1.3.1
 alembic==1.12.0
 altair==4.2.0
@@ -69,7 +69,7 @@ confluent-kafka==2.3.0
 connexion==2.14.2
 cron-descriptor==1.4.0
 croniter==2.0.1
-cryptography==41.0.4
+cryptography==42.0.2
 cx-Oracle==8.3.0
 cymem==2.0.8
 dask==2023.9.3
@@ -82,7 +82,7 @@ defusedxml==0.7.1
 deltalake==0.11.0
 Deprecated==1.2.14
 dill==0.3.7
-dnspython==2.4.2
+dnspython==2.6.0rc1
 docker==6.1.3
 docutils==0.20.1
 ecdsa==0.18.0
@@ -93,7 +93,7 @@ et-xmlfile==1.1.0
 exceptiongroup==1.1.3
 executing==2.0.0
 expandvars==0.11.0
-fastapi==0.103.2
+fastapi==0.109.1
 fastavro==1.8.4
 fastjsonschema==2.18.1
 feast==0.31.1
@@ -106,7 +106,7 @@ fsspec==2023.9.2
 future==0.18.3
 GeoAlchemy2==0.14.1
 gitdb==4.0.10
-GitPython==3.1.37
+GitPython==3.1.41
 google-api-core==2.12.0
 google-auth==2.23.3
 google-cloud-appengine-logging==1.3.2
@@ -150,7 +150,7 @@ iso3166==2.1.1
 isodate==0.6.1
 itsdangerous==2.1.2
 jedi==0.19.1
-Jinja2==3.1.2
+Jinja2==3.1.3
 jmespath==1.0.1
 JPype1==1.4.1
 jsonlines==4.0.0
@@ -159,7 +159,7 @@ jsonpointer==2.4
 jsonref==1.1.0
 jsonschema==4.19.1
 jsonschema-specifications==2023.7.1
-jupyter-server==1.24.0
+jupyter-server==2.11.2
 jupyter_client==7.4.9
 jupyter_core==4.12.0
 jupyterlab-pygments==0.2.2
@@ -255,14 +255,14 @@ ptyprocess==0.7.0
 pure-eval==0.2.2
 pure-sasl==0.6.2
 py-partiql-parser==0.3.7
-pyarrow==11.0.0
+pyarrow==14.0.1
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
 pyathena==2.4.1
 pycountry==22.3.5
 pycparser==2.21
-pycryptodome==3.19.0
-pycryptodomex==3.19.0
+pycryptodome==3.19.1
+pycryptodomex==3.19.1
 pydantic==1.10.13
 pydash==7.0.6
 pydruid==0.6.5
@@ -369,7 +369,7 @@ tzlocal==5.1
 uc-micro-py==1.0.2
 ujson==5.8.0
 unicodecsv==0.14.1
-urllib3==1.26.17
+urllib3==1.26.18
 uvicorn==0.23.2
 uvloop==0.17.0
 vertica-python==1.3.5
@@ -383,7 +383,7 @@ wcwidth==0.2.8
 webencodings==0.5.1
 websocket-client==1.6.4
 websockets==11.0.3
-Werkzeug==2.2.3
+Werkzeug==2.3.8
 widgetsnbextension==4.0.9
 wrapt==1.15.0
 WTForms==3.1.0
@@ -392,3 +392,4 @@ xmltodict==0.13.0
 yarl==1.9.2
 zeep==4.2.1
 zstd==1.5.5.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
