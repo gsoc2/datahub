@@ -16,7 +16,7 @@ RUN rm /usr/share/java/cp-base-new/snakeyaml-*.jar \
   && wget -P /usr/share/java/cp-base-new $MAVEN_CENTRAL_REPO_URL/org/yaml/snakeyaml/$SNAKEYAML_VERSION/snakeyaml-$SNAKEYAML_VERSION.jar
 
 # Based on https://github.com/blacktop's alpine kafka build
-FROM python:3-alpine
+FROM python:3.13.0a3-alpine
 
 ARG ALPINE_REPO_URL
 ARG APACHE_DOWNLOAD_URL
